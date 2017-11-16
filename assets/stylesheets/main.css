@@ -1,0 +1,154 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*
+===============================================================================
+Grid
+===============================================================================
+*/
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing:border-box;
+}
+
+.container, /* any element with class `container` or `grid` will be 960px wide and centered on the page */
+.grid {
+	margin: 0 auto;
+  width: 960px;
+}
+
+.container { /* any element with class `container` will have horizontal padding of 30px */
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.description {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.header {
+	border-top: 10px solid #000000;
+}
+/*
+================================================================================
+Clearfix
+================================================================================
+*/
+
+.group::before,
+.group::after {
+	content: "";
+	display: table;
+}
+
+.group::after {
+	clear:both;
+}
+
+.group {
+	clear:both;
+	*zoom: 1;
+}
+
+/*
+================================================================================
+Primary Header
+================================================================================
+*/
+
+.greeting {
+  padding: 0 0 22px 0;
+  font-size: 56px;
+  font-family: cursive;
+  font-style: oblique;
+  color: violet;
+  display: inline-block;
+}
+
+.logo {
+  display: inline-block;
+  height: 75px;
+  width: 75px;
+  margin-left: 22px;
+  margin-top: 10px;
+}
+/*
+
+/*
+================================================================================
+Home
+================================================================================
+*/
+
+.description {
+  padding: 22px 0 22px 0;
+  text-align: center;
+  font-size: 18px;
+  font-family: monospace;
+  color: 000000;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.video {
+  padding-top: 40px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+body {
+  background: url(https://media.giphy.com/media/6p26sp0YT2LAI/giphy.gif) no-repeat center center fixed;
+  background-size: 75%;
+}
